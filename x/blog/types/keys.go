@@ -17,3 +17,11 @@ const (
 func KeyPrefix(p string) []byte {
 	return []byte(p)
 }
+
+const (
+	PostKey = "Post/value/"
+)
+
+const (
+	PostCountKey = "Post/count/"
+)

@@ -1,0 +1,10 @@
+syntax = "proto3";
+package blog.blog;
+
+option go_package = "blog/x/blog/types";
+
+message Author {
+  uint64 id = 1; 
+  string name = 2; 
+  uint64 age = 3; 
+}
